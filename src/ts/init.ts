@@ -22,6 +22,9 @@ import {
 
 import { CollisionatorSingleton } from './collisionator';
 import { SoundinatorSingleton } from './soundinator';
+import { Ant } from './critters/ant';
+
+let ant: Ant;
 
 /**
  * The thing that hears sound.
@@ -145,12 +148,14 @@ const loadGame = () => {
     };
     onWindowResize();
     window.addEventListener( 'resize', onWindowResize, false);
+    
+    ant = new Ant(scene, 0, 0);
 
     /**
      * The render loop. Everything that should be checked, called, or drawn in each animation frame.
      */
     const render = () => {
-        console.log('Rendering');
+        ant.endCycle();
         renderer.render( scene, camera );
 	    requestAnimationFrame( render );
     };

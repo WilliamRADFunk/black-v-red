@@ -1,9 +1,9 @@
 export interface Critter {
-    aggressive: boolean;
-    armor: number;
-    armorType: string;
-    damagePerTurn: number;
-    health: number;
-    speed: number;
-    speedModifier: number;
+    getActive: () => boolean;
+    getArmorValue: () => number;
+    getArmorType: () => string;
+    getDamagePerTurn: () => number;
+    getHealth: () => number;
+    getSpeed: () => number;
+    isAggressive: () => boolean;
 }
