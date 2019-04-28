@@ -41,7 +41,7 @@ gulp.task('readme', () => {
       // Output options (see typedoc docs)
       out: './docs',
       // TypeDoc options (see typedoc docs)
-      name: 'planet-funk',
+      name: 'black-v-red',
       theme: 'markdown',
       plugins: ['mdFlavour bitbucket'],
       ignoreCompilerErrors: false,

@@ -27,7 +27,7 @@ export interface Collidable {
     /**
      * Call to collidable object that it has been struck.
      * @param self              the thing to remove from collidables...and scene.
-     * @param otherCollidable   the name of the other thing in collision (mainly for shield).
+     * @param otherCollidable   the name of the other thing in collision.
      * @returns whether or not impact means removing item from the scene.
      */
     impact: (self: Collidable, otherCollidable?: string) => boolean;

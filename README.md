@@ -1,49 +1,35 @@
-# Planet Funk
-(Complete) An arcade styled Mission Command meets Tower Defense game...in space.</br></br>
+# Black vs. Red
+(In Progress) An ant colony game; army ants against fire ants.</br></br>
 
-![Game Play Example](https://github.com/WilliamRADFunk/planet-funk/blob/master/src/assets/images/game-play.gif)
+![Game Play Example](https://github.com/WilliamRADFunk/black-v-red/blob/master/src/assets/images/game-play.gif)
 
 ***
 
 ## Intro
 
-Planet Funk is under attack by the Federation of Tone Deaf Worlds. Their leader, Emperor Monotonous IV, in a fit of jealousy, had ordered the total annhilation of your rhythym-loving people.</br></br>
-
-Seeing as you were the Funkiest of them all, your people have united their ability to jam and chose you to focus their bodacious talents in defense of all that is groovy.</br></br>
+An ant colony game; army ants against fire ants.</br></br>
 
 ***
 
 ## Instructions
 
-Touching screen, or clicking the left mouse button on play area will fire nearest working defensive weapon at the place of touch/click</br></br>
-
-Touching screen, or clicking the left mouse button on Planet Funk will erect a temporary force field of protection if both A) one isn't already up, and B) there is enough energy in reserve. If energy is out, nothing happens. If barrier is already up, it will deactivate the barrier.</br></br>
-
-Time recharges energy for both defensive weapons and barrier.</br></br>
-
-Weapons that have been struck are rendered inactive and useless.</br></br>
-
-Fewer unscathed populated areas on the planet means slower planet shield recharge rate.</br></br>
+TBD</br></br>
 
 ***
 
 ## Endgame
 
-When the planet has lost all four of its populated quadrants, GAME OVER.</br></br>
-
-Score is determined by destroyed enemy units. Every enemy's death adds points to total score.</br></br>
-
-Every 25,000 points will revive a damaged weapon. Every 50,000 points will revive a damaged populated area. If all populated areas are undamaged, a damaged weapon is rebuilt. If all weapons and populated areas are intact, then it's just points.</br></br>
+Grow your colony, and eliminate your competitor.</br></br>
 
 See in game help tutorial for a more visual description of how the game works.</br></br>
 
-![In Game Help Screen](https://github.com/WilliamRADFunk/planet-funk/blob/master/src/assets/images/help-screen.jpg)
+![In Game Help Screen](https://github.com/WilliamRADFunk/black-v-red/blob/master/src/assets/images/help-screen.jpg)
 
 ***
 
 ## Where It's At
 
-Game is live and playable at [Planet Funk](https://tenacious-teal.itch.io/planet-funk)
+Game is live and playable at [Black vs Red](https://tenacious-teal.itch.io/black-v-red)
 
 ***
 
@@ -57,7 +43,7 @@ Detailed [documentation](docs/README.md)</br></br>
 
 1. Navigate to the root folder where you want your project to reside.</br></br>
 
-2. Run `git clone https://github.com/WilliamRADFunk/planet-funk.git`.</br></br>
+2. Run `git clone https://github.com/WilliamRADFunk/black-v-red.git`.</br></br>
 
 3. Run `npm install`. If failure, see Common Gotchas section below.</br></br>
 

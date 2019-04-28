@@ -1,7 +1,7 @@
 {
-  "name": "planet-funk",
+  "name": "black-v-red",
   "version": "0.1.0",
-  "description": "\"A just for fun, if 'Toejam & Earl' and 'Mission Command' had a baby, planet defense game.\"",
+  "description": "An ant colony game; army ants against fire ants.",
   "main": "index.js",
   "private": true,
   "scripts": {
@@ -15,40 +15,39 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WilliamRADFunk/planet-funk.git"
+    "url": "git+https://github.com/WilliamRADFunk/black-v-red.git"
   },
   "keywords": [
     "game",
-    "funk",
-    "planet-defense",
+    "real-time-strategy",
+    "RTS",
+    "colony-management",
+    "colony",
     "typescript",
     "javascript",
     "sass",
     "scss",
     "ts",
     "js",
-    "Toejam",
-    "&",
-    "Earl",
-    "Toejam",
-    "and",
-    "Earl",
-    "Mission",
-    "Command",
-    "funky",
-    "music"
+    "army-ants",
+    "fire-ants",
+    "multiplayer",
+    "competitive",
+    "pvp",
+    "ants",
+    "antz"
   ],
   "author": "William Robert Funk",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/WilliamRADFunk/planet-funk/issues"
+    "url": "https://github.com/WilliamRADFunk/black-v-red/issues"
   },
   "babel": {
     "presets": [
       "es2015"
     ]
   },
-  "homepage": "https://github.com/WilliamRADFunk/planet-funk#readme",
+  "homepage": "https://github.com/WilliamRADFunk/black-v-red#readme",
   "devDependencies": {
     "@types/randomcolor": "^0.5.0",
     "@types/three": "^0.92.18",
